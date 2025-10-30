@@ -10,12 +10,11 @@ while preserving mesh topology and smoothness using spectral and variational met
 
 Inspired by Sobolev preconditioning, spectral operators, and heat-based regularization, Flexigon performs stable multi-resolution mesh deformations that preserve topology and geometric details:
 
-[transformation_all.webm](https://github.com/user-attachments/assets/a525c019-dfd1-4350-b454-f8d67c0c5053)
-
+[transformation_all.webm](https://github.com/user-attachments/assets/3e42a33c-9124-4459-b538-1bbf930c754c)
 
 By starting with different base meshes, Flexigon preserves the original structure while adapting to the deformation guidance: for example, using a cartoon mesh as input will ensure that the deformation follows the prompt but maintains the cartoonish style:
 
-[transformation_all.webm](https://github.com/user-attachments/assets/e2519b79-7e70-44b0-888e-33778cc74214)
+[transformation_cartoon.webm](https://github.com/user-attachments/assets/1318de8c-f9d0-457f-8c28-6cf1fd5f4904)
 
 
 ---
@@ -282,23 +281,23 @@ or if you want to create a .blend file with different parameters.
 
 The output generates a **shapekey** in Blender, giving you control to adjust the strength of the deformation, either reducing or enhancing its effect:
 
-<video src="https://github.com/user-attachments/assets/f6b2d08e-41ec-47c3-a979-4861e41818ef" controls height="240"></video>  
+<video src="https://github.com/user-attachments/assets/ea985c4e-a7f6-4eea-92c3-c923acfda774" controls height="240"></video>  
 
 Since the topology is preserved, you can mix different shapekeys:
 
-<video src="https://github.com/user-attachments/assets/ec456af8-1c11-4c6b-bd93-254cccfd9e1d" controls height="240"></video>  
+<video src="https://github.com/user-attachments/assets/890ee02b-63eb-420f-a667-94563933e130" controls height="240"></video>  
 
 You can edit a specific region:
 
-<video src="https://github.com/user-attachments/assets/4bb12df2-82f1-4e43-8246-bb0d048880b8" controls height="240"></video>  
+<video src="https://github.com/user-attachments/assets/806da3c3-5cf1-4d45-b028-ec1d6018b8ad" controls height="240"></video>  
 
 Or subtract a region:
 
-<video src="https://github.com/user-attachments/assets/2e21ca48-74ca-4416-adfa-113e92f826e6" controls height="240"></video>
+<video src="https://github.com/user-attachments/assets/7dc6b0cc-405d-4669-b510-ab00afe82180" controls height="240"></video>
 
 Example of incremental editing you can find here:
 
-<video src="https://github.com/user-attachments/assets/0aa3a325-1243-46fb-8a19-30a3ef7156df" controls height="240"></video>  
+<video src="https://github.com/user-attachments/assets/99c10f43-782b-4d16-acc9-c6914abcf455" controls height="240"></video>  
 
 
 #### Flexigon Parameter Guide
@@ -345,7 +344,7 @@ The following meshes were generated with Flexigon and rendered in Blender, accom
 ### Cartoon Modeling and Animation
 Perform expressive, exaggerative edits using continuous deformation fields with controllable smoothness.
 
-<video src="https://github.com/user-attachments/assets/6981f366-a67f-49c6-9e61-dffee965d6ae" controls height="240"></video>
+<video src="https://github.com/user-attachments/assets/b0e1d7d5-3e67-46d7-9270-84f249777b65" controls height="240"></video>
 
 ### Multiresolution Results
 
