@@ -10,7 +10,7 @@ while preserving mesh topology and smoothness using spectral and variational met
 
 Inspired by Sobolev preconditioning, spectral operators, and heat-based regularization, Flexigon performs stable multi-resolution mesh deformations that preserve topology and geometric details:
 
-[transformation_all.webm](https://github.com/user-attachments/assets/3e42a33c-9124-4459-b538-1bbf930c754c)
+[transformation_all.webm](https://github.com/user-attachments/assets/a96476dd-766d-47be-9638-adad25476965)
 
 By starting with different base meshes, Flexigon preserves the original structure while adapting to the deformation guidance: for example, using a cartoon mesh as input will ensure that the deformation follows the prompt but maintains the cartoonish style:
 
