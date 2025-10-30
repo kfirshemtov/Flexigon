@@ -107,7 +107,7 @@ Together these components form a bridge between semantic conditioning and geomet
 ## Algorithm Overview
 
 
-![algorithm_pipeline.png](imgs/algorithm_pipeline.png)
+![algorithm_pipeline.jpg](imgs/algorithm_pipeline.jpg)
 
 * The algorithm takes a base mesh and a text prompt as input.
 * It performs differentiable rendering from multiple viewpoints to generate a set of images.
@@ -122,7 +122,7 @@ Together these components form a bridge between semantic conditioning and geomet
 
 ## Multi Resolution Mesh Editing
 
-![multi_resolution_pipeline.png](imgs/multi_resolution_pipeline.png)
+![multi_resolution_pipeline.jpg](imgs/multi_resolution_pipeline.jpg)
 
 ## Example Workflows
 
