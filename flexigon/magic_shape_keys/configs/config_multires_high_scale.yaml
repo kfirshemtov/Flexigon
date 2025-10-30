@@ -1,0 +1,32 @@
+# === Input & Scene ===
+face_path: <project_root>/data/scenes/face/meshes/face_bundle_clean.obj
+mesh_name: 'mesh' # Optional - used for naming shapekeys in Blender
+output_folder_name: saved_results
+mesh_scale_factor: 0.8
+
+# === Text Prompts ===
+prompt: 3D model photorealistic portrait of gentle sadness
+negative_prompt: deformed, distorted, misshapen, Sloth goonie, asymmetrical, broken geometry, unnatural proportions, 
+                unrealistic anatomy, mutated, lumpy, melted face, warped mesh, glitch, 
+                disfigured, extra limbs, twisted features
+
+# === Optimization ===
+num_of_iterations: 9001
+reinit_opt_every: 300          # optional; set if intermediate saves desired
+step_size: 0.0005
+
+# === Regularization & Smoothness ===
+lambda_reg: 30                  # Sobolev smoothness weight (heat-equation-based regularization)
+lambda_sym: 30                  # Symmetry loss weight
+a_willmore: 0.0                 # Willmore energy weight (for curvature regularization, optional)
+laplacian_type: cot             # Laplacian discretization type: "cot", "uniform" or "robust"
+
+# === Multi-Resolution Control ===
+decimate_ratio: 0.4
+res_level: 1                    # 1 is enough when optimizing only low-res; code can be adapted for multi-res
+
+# === Deformation Constraints ===
+deform_length_t_ratio_h: 0.002  # Max deformation length ratio for stability
+
+# === Debug & Development ===
+debug_mode: false

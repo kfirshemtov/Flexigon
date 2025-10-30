@@ -1,0 +1,3 @@
+[submodule "ext/kaolin"]
+	path = ext/kaolin
+	url = https://github.com/NVIDIAGameWorks/kaolin
