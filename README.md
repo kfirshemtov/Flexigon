@@ -1,5 +1,5 @@
 <div style="text-align:center;">
-    <img src="imgs/flexigon.png" alt="Flexigon Logo" width="500" style="pointer-events:none;">
+    <img src="imgs/flexigon.jpg" alt="Flexigon Logo" width="500" style="pointer-events:none;">
 </div>
 
 #  Flexigon: Semantic Mesh Editing Across Scales with Topology Preservation
